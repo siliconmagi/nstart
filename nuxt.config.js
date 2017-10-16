@@ -1,7 +1,7 @@
 module.exports = {
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: 'nstart',
     meta: [
@@ -21,16 +21,19 @@ module.exports = {
     { src: '~assets/scss/main.scss', lang: 'scss' }
   ],
   /*
-  ** Customize the progress bar color
-  */
+   ** Customize the progress bar color
+   */
   loading: { color: '#3B8070' },
-  /*
-  ** Build configuration
-  */
+    /*
+   ** Build configuration
+   */
+  plugins: [
+    '~plugins/ga.js'
+  ],
   build: {
     /*
-    ** Run ESLint on save
-    */
+     ** Run ESLint on save
+     */
     extend (config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
@@ -40,6 +43,8 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+  // enable webpack analyzer plugin
+    analyze: true
   }
 }
