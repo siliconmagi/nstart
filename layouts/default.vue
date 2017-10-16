@@ -1,52 +1,72 @@
 <template>
   <div>
-    <nuxt/>
+    <my-header/>
+      <nuxt/>
   </div>
 </template>
 
+<script>
+import MyFooter from '../components/Footer.vue'
+import MyHeader from '../components/Header.vue'
+
+export default {
+  components: {
+    MyFooter,
+    MyHeader
+  }
+}
+</script>
+
 <style>
-html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: border-box;
+.container
+{
   margin: 0;
+  width: 100%;
+  padding: 0px;
+  text-align: center;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
+  .button, .button:visited
+  {
+    display: inline-block;
+    color: white;
+    letter-spacing: 1px;
+    background-color: #586e75;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.55);
+    margin: 2px;
+  }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
+  .button:hover, .button:focus
+  {
+    color: white;
+    background-color: hsla(360, 100%, 85%, 1);
+    transition: background-color .5s ease-out;
+  }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
+  .logobutton, .logobutton:visited
+  {
+    display: inline-block;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px;
+  }
+  .logobutton:hover, .logobutton:focus
+  {
+  }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+  .title
+  {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: 300;
+    font-size: 2em;
+    margin: .5em 0;
+  }
 </style>
