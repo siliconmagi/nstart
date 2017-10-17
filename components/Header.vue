@@ -41,5 +41,6 @@
   padding: 0;
   margin: 0;
   background: linear-gradient(to bottom, white 0%, #002b36 100%);
+  font-size: .8em;
 }
 </style>

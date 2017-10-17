@@ -24,11 +24,11 @@ module.exports = {
    ** Customize the progress bar color
    */
   loading: { color: 'pink' },
-    /*
+  /*
    ** Build configuration
    */
   plugins: [
-    '~plugins/ga.js'
+    { src: '~/plugins/ga.js', ssr: false }
   ],
   build: {
     /*
@@ -44,7 +44,7 @@ module.exports = {
         })
       }
     },
-  // enable webpack analyzer plugin
+    // enable webpack analyzer plugin
     analyze: true
   }
 }

@@ -43,7 +43,7 @@ export default {
   .button:hover, .button:focus
   {
     color: white;
-    background-color: hsla(360, 100%, 85%, 1);
+    background-color: hsla(160, 100%, 45%, 1);
     transition: background-color .5s ease-out;
   }
 
@@ -66,7 +66,7 @@ export default {
     color: white;
     text-shadow: 2px 2px black;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: .5em 0;
   }
 </style>
