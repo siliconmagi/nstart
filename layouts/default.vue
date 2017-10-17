@@ -24,6 +24,7 @@ export default {
   width: 100%;
   padding: 0px;
   text-align: center;
+  padding: 43.6px 0px 0px 0px;
 }
 
   .button, .button:visited
@@ -31,20 +32,21 @@ export default {
     display: inline-block;
     color: white;
     letter-spacing: 1px;
-    background-color: #586e75;
-    border-radius: 3px;
+    background-color: #073642;
+    border-radius: 20px;
     text-decoration: none;
     text-transform: uppercase;
     padding: 0.5em 1em;
-    box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.55);
+    box-shadow: 0px 1px 4px 2px #073642;
     margin: 2px;
   }
 
   .button:hover, .button:focus
   {
     color: white;
-    background-color: hsla(160, 100%, 45%, 1);
+    background-color: hsla(190, 100%, 45%, 1);
     transition: background-color .5s ease-out;
+    box-shadow: 0px 1px 4px 2px #073642;
   }
 
   .logobutton, .logobutton:visited
@@ -66,7 +68,7 @@ export default {
     color: white;
     text-shadow: 2px 2px black;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: .5em 0;
   }
 </style>

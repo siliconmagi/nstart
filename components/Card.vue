@@ -8,12 +8,12 @@
 <style lang="scss" scoped>
 .container
 {
-  background-color: black;
-  border-radius: 5px;
+  background-color: #002b36;
+  border-radius: 20px;
   margin: 0 auto;
   width: 95%;
   padding: 10px;
-  box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.85);
+  box-shadow: 0px 1px 100px 30px #073642;
 }
 .foot
 {

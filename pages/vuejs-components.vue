@@ -114,7 +114,7 @@ export default {
 <span class="hljs-tag">&lt;<span class="hljs-name">/script</span>&gt;</span>
     </code></pre>
     <strong>
-      Source code is available at <a href="https://github.com/siliconmagi/aries">github</a>, official Vue.js component <a href="https://vuejs.org/v2/guide/components.html">documentation</a> and what are those <nuxt-link to="/nuxtjs">&lt;nuxt-link&gt;</nuxt-link>s about?
+      Source code is available at <a href="https://github.com/siliconmagi/nstart">github</a>, official Vue.js component <a href="https://vuejs.org/v2/guide/components.html">documentation</a> and what are those <nuxt-link to="/nuxtjs">&lt;nuxt-link&gt;</nuxt-link>s about?
     </strong>
     </Card>
   </section>

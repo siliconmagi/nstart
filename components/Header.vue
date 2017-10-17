@@ -2,7 +2,7 @@
   <header>
     <nav class="header">
       <svg width="30" height="30" viewBox="0 0 30 30"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                  xmlns="http://www.w3.org/2000/svg">
         <defs>
         <radialGradient id="exampleGradient">
         <stop offset="10%" stop-color="green"/>
@@ -40,7 +40,10 @@
   align-content: flex-end;
   padding: 0;
   margin: 0;
-  background: linear-gradient(to bottom, white 0%, #002b36 100%);
+  background: linear-gradient(to bottom, white 0%, #073642 50%, black 100%);
   font-size: .8em;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 </style>
