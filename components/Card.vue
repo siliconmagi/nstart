@@ -13,7 +13,7 @@
   margin: 0 auto;
   width: 95%;
   padding: 10px;
-  box-shadow: 0px 1px 100px 30px #073642;
+  box-shadow: 0px 0px 100px 20px #073642;
 }
 .foot
 {

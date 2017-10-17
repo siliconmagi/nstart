@@ -40,7 +40,7 @@
   align-content: flex-end;
   padding: 0;
   margin: 0;
-  background: linear-gradient(to bottom, white 0%, #073642 50%, black 100%);
+  background: linear-gradient(to bottom, white 0%, #073642 50%, transparent 100%);
   font-size: .8em;
   position: fixed;
   top: 0;
